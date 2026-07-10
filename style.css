@@ -1,0 +1,86 @@
+/* ============================================================
+   CSS CUSTOM PROPERTIES (Design Tokens)
+   All colors, shadows, and reusable values live here.
+   Change a value once and it updates everywhere.
+============================================================ */
+:root {
+    /* Brand colors */
+    --green-600: #1e8541;
+    /* primary button background */
+    --green-700: #166534;
+    /* hover state / brand text */
+    --brand: #16a34a;
+    /* accent green used in stats */
+
+    /* Section backgrounds */
+    --beige: #f5f0e8;
+    /* "This Is for You" + Support sections */
+    --section-dark: #14532d;
+    /* contact section and footer */
+
+    /* Hero + benefits gradient stops (mint → cream → peach) */
+    --grad-mint: #e6f6ea;
+    --grad-cream: #fdfaf0;
+    --grad-peach: #fdf3df;
+
+    /* Text colors */
+    --text: #0d1b12;
+    /* main body text */
+    --ink: #101828;
+    /* headings inside cards */
+    --muted: #475467;
+    /* secondary / supporting text */
+
+    /* White card background */
+    --card-bg: #ffffff;
+
+    /* Shadows */
+    --shadow: 0 10px 30px rgba(10, 35, 20, 0.08);
+    --ring: 0 6px 24px rgba(0, 0, 0, 0.06);
+
+    /* Border radius */
+    --radius: 14px;
+
+    /* Orange badge pills (farm day cards) */
+    --badge-bg: #fdba74;
+    --badge-text: #7c2d12;
+
+    /* Pastel card tones — Farm Days section */
+    --fd-purple: #faf5ff;
+    --fd-purple-b: #e9d5ff;
+    --fd-green: #f0fdf4;
+    --fd-green-b: #bbf7d0;
+    --fd-yellow: #fefce8;
+    --fd-yellow-b: #fde68a;
+
+    /* Pastel card tones — Why It Matters section */
+    --green-50: #ecfdf3;
+    --green-300: #86efac;
+    --blue-50: #eef6ff;
+    --blue-300: #93c5fd;
+    --purple-50: #faf5ff;
+    --purple-300: #d8b4fe;
+    --yellow-50: #fffbeb;
+    --yellow-300: #fcd34d;
+    --orange-50: #fff7ed;
+    --orange-300: #fdba74;
+    --pink-50: #fdf2f8;
+    --pink-300: #f9a8d4;
+
+    /* Pastel card tones — About section */
+    --lime-50: #f3fbe4;
+    --lime-200: #d9f99d;
+    --lilac-50: #eef2ff;
+    --lilac-200: #c7d2fe;
+    --peach-50: #fff1e6;
+    --peach-200: #fed7aa;
+    --mint-50: #ecfdf5;
+    --mint-200: #a7f3d0;
+    --butter-50: #fffbeb;
+    --butter-200: #fde68a;
+
+    /* Footer */
+    --footer-ink: #eaf7ef;
+    --footer-muted: #cfe4d7;
+    --footer-link: #ffffff;
+}
