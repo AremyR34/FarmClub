@@ -1109,3 +1109,33 @@ textarea:focus {
 .footer-bottom p {
     margin: 0;
 }
+
+/* ============================================================
+   RESPONSIVE UTILITIES
+============================================================ */
+@media (max-width: 820px) {
+
+    /* Hide the header "Join a Farm Day" button on small screens */
+    .sm-hidden {
+        display: none !important;
+    }
+
+    /* Collapse nav grid to just logo + nav links */
+    .container-nav {
+        grid-template-columns: 1fr auto;
+    }
+
+    /* Tighter hero on phones */
+    .hero-section {
+        padding: 64px 20px 70px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    /* Nav links wrap more gracefully on small phones */
+    .nav-list {
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+}
