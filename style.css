@@ -484,3 +484,34 @@ body.body-container {
     margin-top: 22px;
     font-size: 0.95rem;
 }
+
+/* ============================================================
+   THIS IS FOR YOU SECTION (#for-you)
+   Warm beige band with centered trust message.
+============================================================ */
+.foryou-section {
+    background: var(--beige);
+    padding: 90px 20px;
+    text-align: center;
+}
+
+.foryou-inner {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.foryou-section h2 {
+    font-size: clamp(1.8rem, 3.5vw, 2.4rem);
+    color: var(--ink);
+    margin-bottom: 22px;
+}
+
+.foryou-section p {
+    color: #3f4a44;
+    font-size: 1.08rem;
+    margin-bottom: 18px;
+}
+
+.foryou-section p:last-child {
+    margin-bottom: 0;
+}
