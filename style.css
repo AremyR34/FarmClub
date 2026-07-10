@@ -767,3 +767,41 @@ body.body-container {
     background: var(--butter-50);
     border-color: var(--butter-200);
 }
+
+/* ============================================================
+   SUPPORT THE FARM SECTION (#support)
+   Beige band with a white left-aligned card.
+============================================================ */
+.support-section {
+    background: var(--beige);
+    padding: 80px 20px;
+}
+
+.support-card {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #fdfdfb;
+    border: 1px solid #cde8d2;
+    border-radius: 16px;
+    padding: 36px 32px;
+    box-shadow: var(--ring);
+}
+
+.support-card h2 {
+    font-size: 1.4rem;
+    color: var(--ink);
+    margin-bottom: 16px;
+}
+
+.support-card p {
+    color: #3f4a44;
+    margin-bottom: 14px;
+}
+
+.support-card p:last-child {
+    margin-bottom: 0;
+}
+
+.muted-dark {
+    color: var(--muted);
+}
