@@ -350,3 +350,137 @@ body.body-container {
     font-size: 2.1rem;
     margin-bottom: 0.6rem;
 }
+
+/* ============================================================
+   FARM DAYS SECTION (#farm-days)
+   White background. Three pastel cards with orange badges
+   and activity tag pills.
+============================================================ */
+.farmdays-section {
+    background: #ffffff;
+    padding: 90px 20px 70px;
+    text-align: center;
+}
+
+.farmdays-section h2 {
+    font-size: clamp(1.8rem, 3.5vw, 2.4rem);
+    margin-bottom: 12px;
+    color: var(--ink);
+}
+
+.farmdays-section .subtitle {
+    font-size: 1.05rem;
+    color: var(--muted);
+    max-width: 640px;
+    margin: 0 auto 56px;
+}
+
+/* Flex row of farm day cards */
+.program-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Individual farm day card */
+.program-card {
+    flex: 1 1 300px;
+    max-width: 380px;
+    border-radius: 16px;
+    padding: 30px 26px;
+    text-align: left;
+    background: #fff;
+    border: 1px solid transparent;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+    transition: transform 0.2s ease;
+}
+
+.program-card:hover {
+    transform: translateY(-5px);
+}
+
+.program-card h3 {
+    font-size: 1.2rem;
+    color: var(--ink);
+    margin-bottom: 10px;
+}
+
+.program-card p {
+    font-size: 0.98rem;
+    color: #3f4a44;
+    margin-bottom: 18px;
+}
+
+/* Orange badge pills (age + time) */
+.badge-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 18px;
+}
+
+.badge {
+    display: inline-block;
+    background-color: var(--badge-bg);
+    color: var(--badge-text);
+    border-radius: 999px;
+    font-size: 0.82rem;
+    font-weight: 700;
+    padding: 5px 12px;
+}
+
+/* Activity tag pills */
+.tag-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tag-list li {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    color: #374151;
+}
+
+/* Card background + border color variants */
+.purple {
+    background-color: var(--fd-purple);
+    border-color: var(--fd-purple-b);
+}
+
+.green {
+    background-color: var(--fd-green);
+    border-color: var(--fd-green-b);
+}
+
+.yellow {
+    background-color: var(--fd-yellow);
+    border-color: var(--fd-yellow-b);
+}
+
+/* Note below the cards */
+.note {
+    margin: 44px auto 0;
+    font-size: 0.98rem;
+    color: #3f4a44;
+    max-width: 720px;
+}
+
+/* Availability badge */
+.availability {
+    background-color: #d9f2df;
+    color: #146b38;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 999px;
+    font-weight: 700;
+    margin-top: 22px;
+    font-size: 0.95rem;
+}
