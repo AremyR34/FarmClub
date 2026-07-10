@@ -410,6 +410,156 @@
         </div>
       </section>
       <!-- end #support -->
+
+      <!-- ============================================================
+           CONTACT — Info, gathering details, and the RSVP form
+      ============================================================ -->
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <!-- Section heading -->
+          <header class="contact-header">
+            <h2>Join Our Next Farm Day</h2>
+            <p>
+              Reserve a free spot for your family — we'll follow up with the
+              date, address, and everything you need to know.
+            </p>
+          </header>
+
+          <div class="contact-grid">
+            <!-- Left column: contact info and gathering details -->
+            <aside class="contact-info">
+              <h3 class="contact-info-title">Get in Touch</h3>
+
+              <ul class="info-list">
+                <li class="info-item">
+                  <span class="info-icon" aria-hidden="true">💌</span>
+                  <div>
+                    <h3>Email Us</h3>
+                    <a href="mailto:hello@farmclub.com">hello@farmclub.com</a>
+                    <p class="muted">We'll respond within 24 hours</p>
+                  </div>
+                </li>
+
+                <li class="info-item">
+                  <span class="info-icon" aria-hidden="true">📍</span>
+                  <div>
+                    <h3>Where We Gather</h3>
+                    <span>North County San Diego (Oceanside)</span>
+                    <p class="muted">
+                      We share the farm's exact address when we confirm your
+                      spot!
+                    </p>
+                  </div>
+                </li>
+              </ul>
+
+              <!-- When we gather card -->
+              <div class="hours-card">
+                <div class="hours-title">
+                  <span aria-hidden="true">🕒</span> When We Gather
+                </div>
+                <ul class="hours-list">
+                  <li>Farm days happen once or twice a month</li>
+                  <li>Saturday mornings, 10:00am–1:00pm</li>
+                  <li>Upcoming dates shared by email after you RSVP</li>
+                </ul>
+              </div>
+            </aside>
+            <!-- end .contact-info -->
+
+            <!-- Right column: RSVP form -->
+            <div class="contact-form-card">
+              <h3>Reserve Your Spot</h3>
+              <p class="muted">
+                Farm days are always free — we just need a few details to save
+                your family's place.
+              </p>
+
+              <!-- TIP: to make this form actually send you emails, sign up at
+                   formspree.io (free) and set action="https://formspree.io/f/YOUR_ID"
+                   with method="POST" below. -->
+              <form id="rsvp-form" novalidate>
+                <div class="form-field">
+                  <label for="parentName">Parent/Guardian Name</label>
+                  <input
+                    id="parentName"
+                    name="parentName"
+                    type="text"
+                    placeholder="Your name"
+                    required
+                  />
+                </div>
+
+                <div class="form-field">
+                  <label for="email">Email</label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="you@example.com"
+                    required
+                  />
+                </div>
+
+                <div class="form-field">
+                  <label for="phone">Phone</label>
+                  <input
+                    id="phone"
+                    name="phone"
+                    type="tel"
+                    inputmode="tel"
+                    placeholder="(555) 123-4567"
+                  />
+                </div>
+
+                <div class="form-field">
+                  <label for="childCount">Number of Children</label>
+                  <select id="childCount" name="childCount" required>
+                    <option value="" selected disabled>Select</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4+">4+</option>
+                  </select>
+                </div>
+
+                <div class="form-field">
+                  <label for="ages">Children's Ages</label>
+                  <input
+                    id="ages"
+                    name="ages"
+                    type="text"
+                    placeholder="e.g., 3, 6, and 9"
+                  />
+                </div>
+
+                <div class="form-field">
+                  <label for="message">Message (Optional)</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    placeholder="Anything you'd like us to know — questions, accessibility needs, or how you heard about us..."
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                  Save Our Spot
+                </button>
+
+                <p class="tiny muted confirm-note">
+                  We'll email you within 24 hours with the next farm day date
+                  and all the details.
+                </p>
+              </form>
+            </div>
+            <!-- end .contact-form-card -->
+          </div>
+          <!-- end .contact-grid -->
+        </div>
+        <!-- end .container -->
+      </section>
+      <!-- end #contact -->
     </main>
   </body>
 </html>
