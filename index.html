@@ -561,5 +561,63 @@
       </section>
       <!-- end #contact -->
     </main>
+
+    <!-- ============================================================
+         FOOTER — Brand blurb, quick links, and contact info
+    ============================================================ -->
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <!-- Brand column -->
+        <div class="footer-col footer-brand">
+          <div class="logo-badge" aria-hidden="true">F</div>
+          <h3 class="footer-title">The Backyard Farm Club</h3>
+          <p class="footer-text">
+            Free backyard farm days for North County San Diego families. Kids
+            explore, create, and care for animals — no fees, no forms, just
+            farm.
+          </p>
+        </div>
+
+        <!-- Quick links column -->
+        <nav class="footer-col" aria-label="Footer">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#farm-days">Farm Days</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Contact info column -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Contact Info</h4>
+          <ul class="footer-contact">
+            <li>
+              <span class="fi" aria-hidden="true">📧</span>
+              <a href="mailto:hello@farmclub.com">hello@farmclub.com</a>
+            </li>
+            <li>
+              <span class="fi" aria-hidden="true">📍</span>
+              Oceanside, CA
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- end .footer-grid -->
+
+      <div class="footer-divider" role="presentation"></div>
+
+      <!-- Copyright bar — year is set dynamically by the script below -->
+      <div class="container footer-bottom">
+        <p>
+          © <span id="year"></span> The Backyard Farm Club. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Sets the copyright year automatically -->
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
